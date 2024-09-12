@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3536080999002788846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6948641511894049162}
+  - component: {fileID: 8244413061668852626}
+  m_Layer: 0
+  m_Name: Audio Boss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6948641511894049162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536080999002788846}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8244413061668852626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536080999002788846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a87fffe8c7aa2d4398b57613323593e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - {fileID: 8300000, guid: 9665b39240c1ae74fb45276d637f535f, type: 3}
+  - {fileID: 8300000, guid: 608ad45c52e79c045a1a139d63e16565, type: 3}
+  - {fileID: 8300000, guid: 2467950c7f3c9f741a972e28d3c6c9ab, type: 3}
+  - {fileID: 8300000, guid: a9d4d17397ec66b4182541ce9f9e1291, type: 3}
+  - {fileID: 8300000, guid: 32116247da38b0a49b33488995907721, type: 3}
+  - {fileID: 8300000, guid: 68eea095543582b4aa3f59582eb61b22, type: 3}
+  - {fileID: 8300000, guid: ecb93336aa7476c48846256d817f76c2, type: 3}
+  - {fileID: 8300000, guid: e7017a64f0700ad45ae4e33d45789bd2, type: 3}
+  - {fileID: 8300000, guid: 58581cb742a3f204495515091c09b5c8, type: 3}
+  - {fileID: 8300000, guid: e0897f9531f1d9d4d8c1afa8738f3eae, type: 3}
+  - {fileID: 8300000, guid: d52bdc941b4beb54283b75aefc1d2d2e, type: 3}
+  - {fileID: 8300000, guid: 14629d45ca0d72a4b986fda79261cadd, type: 3}
+  - {fileID: 8300000, guid: 8da8ae76a88b95c429fbc6b755d76318, type: 3}
+  oneShotSoundEffects:
+  - {fileID: 8300000, guid: 8f0f6a21b90bb9e4a8037fb2bd46c637, type: 3}
+  - {fileID: 8300000, guid: 760eb076259d0a2438c32da611258ffb, type: 3}
+  - {fileID: 8300000, guid: 07c514723d52a9444b951bed4de55a19, type: 3}
